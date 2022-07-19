@@ -1,0 +1,30 @@
+.section{
+    padding: 20px;
+}
+.img{
+    text-align: center;    
+}
+article .h2{
+    text-align: left;
+}
+.article{
+    margin-bottom: 40px;
+}
+.enviar_respuesta{
+    background-color: rgb(29, 99, 29);
+    color:white;
+    border: 1px solid white;
+    padding: 5px;
+    width: 200px;
+}
+.correcto{
+    color: green;
+    font-size: 1.2em;
+}
+.incorrecto{
+    color:brown;
+    font-size: 1.2em;
+}
+.iframe{
+    text-align: center;
+}

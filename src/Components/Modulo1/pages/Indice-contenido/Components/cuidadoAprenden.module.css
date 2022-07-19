@@ -1,0 +1,114 @@
+.ninos{
+    text-align: center;
+}
+.h4{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.h4_2{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.altura_div{
+    height: 600px;
+}
+.ul_fomentar{
+    margin-top: -8px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2px;
+    width: 100%;
+}
+.a_partir{
+    padding: 0 30px;
+}
+.select select{
+    margin: 10px 8px;
+}
+.selectOk{
+   background-color: rgb(148, 179, 103);
+   color: white; 
+}
+.selectKo{
+    background-color:rgb(216, 121, 121);
+    color: white;
+}
+.botonComprobar{
+    background-color: darkgreen;
+    color:white;
+    font-weight: 600;
+    border: 1px solid white;
+    padding: 10px;
+}
+.botonMostrar{
+    background-color: blue;
+    color:white;
+    font-weight: 600;
+    border: 1px solid white;
+    padding: 10px;
+}
+.respuestas u {
+    color: blue;
+}
+.explicacion{
+    display: flex;
+}
+.verde{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(148, 179, 103);
+    margin-right: 5px;
+}
+.rojo{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(216, 121, 121);
+    margin-right: 5px;
+}
+.articulo{
+    margin-bottom: 30px;
+}
+.acordeonItem0{
+    background-color: cornsilk;
+    margin-bottom: 20px;
+}
+.acordeonItem1{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.acordeonItem2{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.acordeonItem0 h2 button::after{
+    width: 20px;
+}
+.acordeonItem0 h2 button{
+    text-align: center;
+    background-color: rgb(240, 241, 220);
+    height: 60px;
+}
+.acordeonItem1 h2 button{
+    text-align: center;
+    background-color: rgb(233, 215, 231);
+    height: 60px;
+}
+.acordeonItem2 h2 button{
+    text-align: center;
+    background-color: rgb(215, 233, 230);
+    height: 60px;
+}
+.acordeon_h5{
+    width: 100%;   
+    color:black;
+    font-size: 1.8em;
+    margin-top: 15px;
+}

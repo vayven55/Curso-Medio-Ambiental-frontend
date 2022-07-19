@@ -1,0 +1,29 @@
+#seccion_oculta{
+    display: none;
+}
+#seccion_vista{
+    display: block;
+  }
+#span-input{
+    display: none;
+}
+#comprobar{
+    margin-right: 20px;
+    background-color: #2F4730;
+    color: white;
+    padding: 3px; 
+}
+#comprobar:hover{
+    background-color: #384138;
+}
+#retroalimentación{
+    background-color: #b48224;
+    color: white;
+    padding: 3px; 
+}
+#retroalimentación:hover{
+    background-color: #5e4619;
+}
+.seleccionado{
+    background-color: red;
+}

@@ -1,0 +1,207 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url('../assets/img/Sedona-Arizona.jpg');
+    
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    
+}
+p{
+    font-family: verdana, geneva, sans-serif;  
+}
+span{
+    font-family: verdana, geneva, sans-serif;
+}
+header{
+    text-align: center;
+    height: 80px;
+    background: rgba(47, 71, 48, 0.6);
+    background: -webkit-radial-gradient(top left, #2F4730, #99B684);
+    background: -moz-radial-gradient(top left, #2F4730, #99B684);
+    background: radial-gradient(to bottom right, #2F4730, #99B684);
+    color: white;
+    border-bottom: 2px solid brown;
+    
+}
+.menu_h2{
+    margin-top: 0;
+    padding-top: 18px;
+    color: white;
+    
+}
+
+.menu{
+    display: flex;
+    margin: 0;
+    text-align: left;
+    padding: 25px;
+    overflow-y: auto;  
+    bottom: 50px;
+    max-height: 100vh;
+    background-color: rgba(194, 138, 169, 0.8);      
+}
+.main_node {
+    text-align: center;
+    margin-top: -11px;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+
+}
+.main_node a:hover{
+    background-color: rgb(61, 9, 9);
+    color: white;
+    transition-duration: 0.2s;
+    display: block;
+    padding: 5px;
+}
+.ul_principal{
+    margin-left: 0;
+    padding-left: 0;
+}
+ul li{
+    list-style: none;
+}
+.padre_main{
+    margin-top: 4px;
+    font-size: 1.3em;
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+    
+}
+.padre_main:hover{
+    background-color: rgb(61, 9, 9);
+    color:white;
+    transition-duration: 0.2s;
+    padding: 5px;
+}
+.li_childrem_tarea{
+    margin: 8px 0 5px;
+}
+.padreX{
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: rgb(185, 185, 143);
+    text-decoration: none;
+}
+.padreX:hover{
+    background-color: rgb(34, 3, 3);;
+    color: white;
+    padding: 5px; 
+}
+.padre_1X{
+    margin-top: 0px;
+    padding-top: 0;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.padre_1X{
+    color: rgb(185, 185, 143);   
+}
+.padre_1X:hover{
+    margin-top: 12px;
+    background-color: rgb(61, 9, 9);
+    padding: 5px;
+    color: white;
+}
+.li_childrem{
+    padding: 10px 0 10px;
+}
+.childrem{ 
+    font-size: 1em;  
+    color:rgb(153, 231, 231);
+    text-decoration: none;  
+}
+.childrem:hover{
+    color:rgb(153, 231, 231);
+    background-color: #2F4730;
+    margin-top: 8px;
+    transition-duration: 0.2s;
+    padding: 5px;
+}
+
+.paginacion{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /*background-color: rgba(47, 71, 48,0.7);*/
+    background-color: rgba(128, 128, 128,0.7);   
+}
+.paginacion a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-right: 10px;
+    color: white;
+    
+}
+.paginacion a:hover{
+    color: rgb(212, 224, 165);
+}
+.ant{
+    margin-right: 3px; 
+}
+.separacion{
+    color: yellow;
+    font-weight: 900;
+    margin-right: 10px;
+    font-size: 1.2em;
+    
+}
+.next{
+   margin-left: 3px; 
+}
+.paginacion .footer_p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.presentacion{
+    max-height: 100vh;
+    padding: 20px;
+    text-align: left;
+    /*background-color: rgba(219, 224, 187,0.8);*/
+    background-color: rgba(237, 252, 250,0.8);
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.presentacion h2{
+    border-bottom: 2px solid brown;
+    margin-top: -19px;
+    color: black;
+    text-align: center;
+}
+.presentacion span{
+    font-family: verdana, geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+.presentacion nav a{
+    text-decoration: none;
+   display: grid;
+}
+
+.dosManos_img{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.indice {
+    background-color: rgba(47, 71, 48, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

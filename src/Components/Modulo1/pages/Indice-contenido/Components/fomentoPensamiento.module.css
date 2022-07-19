@@ -1,0 +1,83 @@
+.img{
+    text-align: center;
+}
+.article{
+    padding: 20px;
+}
+.acordeon{
+    margin-top: 40px;
+}
+.acordeonItem{
+    background-color: transparent;
+    margin-bottom: 18px;
+}
+.acordeonItem h2{
+    border-bottom: 1px solid green;
+}
+.acordeonHeader button{
+    background-color: rgb(88, 84, 84);
+    color: white;
+}
+.acordeonHeader button::after{
+    background-color: white;
+}
+.acordeonHeader button span{
+    font-size: 1.1em;
+    padding: 5px;
+}
+.articleVerdaderoFalso{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.articleVerdaderoFalso h3{
+    margin-bottom: 30px;
+}
+.articleVerdaderoFalso h4{
+    color:black;
+    margin-top: 20px;
+}
+.articleActividad{
+    padding: 30px;
+}
+.articleActividad select{
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+.articleRecursosMulti{
+    padding: 30px;
+    text-align: center;
+}
+.correcto{
+    color: green;
+    font-size: 1.1em;
+}
+.incorrecto{
+    color:brown;
+    font-size: 1.1em;
+}
+.reconoce{
+    margin-left: 40px;
+    color:green;
+    text-decoration: double;
+}
+.comprobar{
+    background-color: rgb(15, 68, 15);
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
+.mostrar{
+    background-color: rgb(53, 33, 139);
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
+.select{
+    background-color: rgb(181, 218, 145);
+}
+.No_select{
+    background-color:rgb(233, 142, 77)
+}

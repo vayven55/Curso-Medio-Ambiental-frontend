@@ -1,0 +1,97 @@
+.img p{
+    text-align: center;
+}
+.img p img{
+    width: 340px;
+    height: 240px;
+}
+.h2_principal{
+    background-color: #2F4730;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+.span{
+    margin-bottom: 40px;
+    text-align: left !important;
+}
+.centrar h2 button{
+    width: 100%;  
+    font-size: .6em;
+    font-weight:bolder;   
+}
+.fondo_acordeon{
+    background-color: transparent;
+    margin-bottom: 19px;
+}
+.rellenar_huecos{
+    margin-top: 30px;
+}
+.centrar h2 button::after{
+    width: 20px;
+}
+.pregunta{
+    background-color: white;
+    padding-left: 8px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.recursos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mostrarTexto{
+    margin: 5px 20px;
+    background-color: rgb(245, 242, 239);
+    padding: 20px;
+}
+.ocultarTexto{
+    display: none;
+}
+.mostrar{
+    padding: 5px; 
+    margin: 5px 10px 10px 0;
+    color:white;
+    background-color: #2F4730;
+    border: 2px solid white;
+    width: 220px;
+}
+.mostrarValidas{
+    padding: 5px;
+    margin: 5px 0 10px 10px;
+    color:white;
+    background-color: #4f3c94;
+    border: 2px solid white;
+    width: 220px;
+}
+.limpiar{
+    padding: 5px;
+    margin: 5px 0 0 10px;
+    color:white;
+    background-color: rgb(189, 65, 44);
+    border: 2px solid white;
+    width: 100px;
+}
+.spanInput{
+    padding: 20px;
+}
+.spanInput input{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.respuestaMala{
+    background-color: rgb(231, 216, 210);
+}
+.respuestaOk{
+    background-color:#c5f0c6
+}
+input{
+    text-align: center;
+    width: 160px;
+}
+.inputEspacio{
+    width: 360px;
+}

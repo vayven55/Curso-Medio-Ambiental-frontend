@@ -1,0 +1,76 @@
+.img{
+    text-align: center;
+    margin: 20px 0
+}
+.img img{
+    width: 400px;
+    height: 280px;
+}
+.escuela_eficaces{
+    background-color: #2F4730;
+    color: white;
+    padding: 10px;
+}
+.ul{
+    display: block;
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #2F4730;
+    margin-right: 20px;
+}
+.ul li{
+    margin-right: 20px; 
+}
+.marginVerdadero_falso{
+    margin-top: 80px;
+    padding: 30px;
+}
+.marginVerdadero_falso p, label{
+    font-weight: bolder;
+}
+.recursos_multimedia{
+    margin-top: 80px;
+    padding: 30px;
+}
+.para_saber_mas{
+    margin-top: 80px;
+    padding: 30px; 
+}
+.divCentrado{
+    margin: 0 auto;
+}
+.ul li{
+    display: inline-block; 
+}
+.ul li span{
+    margin-right: 40px;
+    color: rgb(75, 75, 221);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.expandir{
+    font-size: 1.2em;
+    color:rgb(24, 66, 24);
+    background-color: rgb(236, 232, 174);
+    padding: 20px;
+    margin-top: 0;
+    border: 1px solid #2F4730;
+}
+.iframe p{
+    text-align: center;
+}
+.input{
+    margin-left: 10px;
+}
+.correcto{
+    color:rgb(24, 66, 24);
+    margin-left: 20px;
+}
+.incorrecto{
+    color: rgb(231, 90, 90);
+    margin-left: 20px;
+}
+h2{
+    margin-bottom: 30px;
+}

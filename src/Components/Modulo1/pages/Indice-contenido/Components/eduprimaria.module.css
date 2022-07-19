@@ -1,0 +1,61 @@
+.img{
+    text-align: center;
+}
+.article{
+    padding: 20px;
+}
+.acordeon{
+    margin-top: 40px 0;
+    padding: 20px;
+}
+.acordeon_item{
+    margin-bottom: 20px;
+    background-color: transparent;
+    
+}
+.acordeon_header button{
+    background-color: black;
+    color: white;
+    font-size: .8em;
+    font-weight: bolder;
+}
+.acordeon_header button::after{
+    background-color: white;
+}
+.article_actividad{
+    padding: 20px;
+}
+.acordeon_header_actividad button{
+    font-size: .8em;
+    font-weight: bolder; 
+}
+.actividad select{
+    margin: 2px 5px;
+}
+.acordeon_strong{
+    background-color: rgb(29, 27, 27);
+    color: white;
+    padding: 0 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.correcto{
+    background-color: rgb(179, 235, 124);
+}
+.incorrecto{
+    background-color: rgb(235, 124, 124);
+}
+.comprobar{
+    color: white;
+    background-color: rgb(18, 54, 18);
+    border-radius: 2px solid white;
+    padding: 5px;
+    font-weight: bolder;
+}
+.mostrar{
+    color: white;
+    background-color: rgb(32, 32, 153);
+    border-radius: 2px solid white;
+    padding: 5px;
+    font-weight: bolder;
+}

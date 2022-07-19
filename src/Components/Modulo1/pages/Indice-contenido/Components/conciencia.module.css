@@ -1,0 +1,83 @@
+.img{
+    text-align: center;
+}
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;    
+}
+.iconIz{
+    color: rgba(85, 85, 185, .4);
+    font-size: 3em;
+    border-radius: 50%;
+    margin-top: -18px;
+    
+}
+.iconDer{
+    color: rgba(85, 85, 185, .4);
+    font-size: 3em;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -18px;
+    
+}
+.p1, .p2{
+    color: rgb(85, 85, 185);
+    background-color: rgb(238, 214, 240);
+    font-size: 1.8em;
+    margin-left: 20px;
+    padding: 0 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.p1Activo, .p2Activo{
+    color: white;
+    background-color: rgb(84, 79, 85);
+    font-size: 2em;
+    margin-left: 20px;
+    padding: 0 10px;
+    margin-right: 5px;
+}
+.iconIzActivo{
+    color: rgb(85, 85, 185);
+    font-size: 3em;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: -18px;
+}
+.iconDerActivo{
+    color: rgb(85, 85, 185);
+    font-size: 3em;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: -18px;
+}
+.divCarrusel{
+    margin-bottom: 80px;
+}
+.listado li{
+    list-style: circle;
+}
+.estrella{
+    color:rgb(241, 200, 94);
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+.acordeonHeader h2, button{
+    height: 60px;
+    width: 100%;
+}
+.acordeonHeader .h2estrella{
+    border-bottom: none;
+    margin-top: 50px;
+}
+.recurMultimedia{
+    margin-top: 60px;
+    text-align: center;
+}
+.saberMas{
+    margin-top: 50px;
+}

@@ -1,0 +1,106 @@
+.imagen{
+    text-align: center;
+}
+p{
+    font-weight: bolder;
+}
+.h2Principal{
+    background-color: #2F4730;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.article{
+    margin-bottom: 40px;
+}
+.marginP{
+    margin-bottom: 40px;
+}
+.atras{ 
+    font-size: 2.5em;
+    color: blue; 
+    margin-top: 20px;
+    text-align: center;  
+    
+}
+.adelante{ 
+    font-size: 2.5em;   
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.centrar{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.centroIz{
+    margin-bottom: 20px;    
+}
+.centroDer{
+    margin-bottom: 20px;     
+}
+ul li{
+    font-weight: bolder;
+}
+.carrusel{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.carrusel h3{
+    display: inline;
+    padding: 5px 15px;
+    background-color: rgb(216, 241, 208);
+    cursor: pointer;
+    color: blue;
+    border-radius: 5px;    
+}
+h3.resaltar{
+    background-color: rgb(223, 222, 224);
+    color: green;
+}
+.acordeon_item{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.acordeon_header button::after{
+    width: 20px;
+}
+.acordeon_header{
+    border-top: 2px solid blue; 
+    border-bottom: 2px solid blue;
+}
+.acordeon_header button{
+    font-size: .9em;
+    font-weight: 600; 
+    background-color: rgb(231, 224, 215);
+}
+.acordeon_header button span{
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 0 7px;
+    color: white;
+    border-radius: 50px;
+}
+.pregunta{
+    margin-bottom: 20px;
+}
+.body{
+    padding: 20px;
+}
+.boton{
+    background-color: #2F4730;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bolder;
+    font-size: 1em;
+    width: 200px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

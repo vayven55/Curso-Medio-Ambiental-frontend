@@ -1,0 +1,66 @@
+.transparente{
+    background-color: rgb(211, 204, 204);
+    
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+.agenda_img{
+    text-align: center;
+    margin: 10px 0;
+}
+.agenda_iframe{
+    text-align: center;
+}
+.pregunta{
+    text-align: center;
+}
+.accordion{
+    background-color: rgb(211, 204, 204);
+}
+.accordion_header button{
+    background-color: rgb(172, 177, 154);
+    padding: 10px;
+    
+}
+
+.accordion_header h3{
+    background-color: rgb(195, 199, 180);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.correcto{
+    color: rgb(90, 145, 90);
+    margin-top: 0;
+    font-weight: bold;
+}
+.incorrecto{
+    color:orangered;
+    margin-top: 0;
+    font-weight: bold;
+}
+.null{
+    display: none;
+}
+.radio label{ 
+    padding: 10px;
+}
+.article_multimedia{
+    padding-top: 30px;
+}
+.recurso_multimedia{
+    color: green;
+}
+.recurso_multimedia:hover{
+    color: brown;
+}
+.reset_form{
+    display:block;
+    width: 80px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+}

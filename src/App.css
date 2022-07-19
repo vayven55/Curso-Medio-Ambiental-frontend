@@ -1,0 +1,63 @@
+/******Barra de desplazamiento************/
+* 
+  
+  /* Works on Chrome, Edge, and Safari*/
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(233, 218, 189);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(164, 164, 235);
+    border-radius: 20px;
+    border: 3px solid rgb(233, 218, 189);
+  }
+  html, body{
+    display: flex;
+    flex-direction: column;
+    height:100vh !important;
+    margin: 0;
+    font-family: verdana, geneva, sans-serif;
+  }
+/*************** De Home *******************/
+.navbar-center > a{
+    margin-right: 30px;
+}
+.nav-link{
+    padding: 5px;
+    margin-right: 10px;
+}
+/************** De modulo 1*****************/
+
+/*.active{
+    color:white;
+    background-color: rgb(158, 55, 138);
+    padding: 0 3px;
+}*/
+
+.material-icons.md-48{
+    padding-top: 12px;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.material-icons.md-48:hover{
+    font-size: 55px;
+};
+.material-icons.md-24{
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+}
+.material-icons.md-24:hover{
+    transform: rotateZ(90deg);
+    display: inline-block;
+}
+p{
+  font-weight: bolder;
+}
+
+

@@ -1,0 +1,190 @@
+.img{
+    text-align: center;
+}
+.h2_principal{
+    background-color: #2F4730;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+h2{
+    font-weight: bolder;
+}
+.parrafoOculto{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    margin-right: 10px;
+    font-weight: bolder;
+}
+h4{
+    margin-right: 10px;
+    font-weight: bolder; 
+    color: rgb(105, 105, 214);  
+}
+.carateristicas{
+    background-color: bisque;
+    padding: 2px 5px 10px 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.carateristicasHover{
+    cursor: pointer;
+}
+.carac_backgr{
+    background-color: bisque;
+    padding: 0 30px 10px 30px;
+    margin-top: -7px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.centrar button{
+    color: #2F4730;
+    font-size: .8em;
+    font-weight: 600;
+}
+.centrar button strong{
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: rgb(219, 219, 147);
+    padding: 0 10px;
+    border-radius: 50px;
+}
+.fondo_acordeon{
+    background-color: transparent;
+    margin-top: 30px;
+
+}
+.article{
+    margin-top: 80px;
+}
+.opcionCorrecto{
+    color: green;
+}
+.opcionInc{
+    color: orangered;
+}
+.pPregunta{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.h2multimedia{
+    text-align: center;
+}
+.iframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.correcto{
+    color: green;
+}
+.incorrecto{
+    color: orangered;
+}
+.margin_top{
+    margin-top: 20px;
+}
+.div_icons{
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+.div_icons p{
+    margin-top:0;
+    text-align: center;
+    color: rgb(46, 45, 150);
+    font-size: 1.5em;
+    background-color: #ccb979;
+    border-radius: 50px;
+    cursor: pointer;        
+}
+.div_texto{
+    background-color: bisque;
+    border-radius: 5px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu p{
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: bisque;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.spanPregunta{
+    padding-left: 10px;
+    background-color: #ccb979;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    color:rgb(46, 45, 150);
+}
+.Retroalimentacion1F{
+    display: none;
+}
+.Retroalimentacion1V{
+    display: block;
+}
+.correcto{
+    color: green;
+}
+.Incorrecto{
+    color:rgb(46, 45, 150); 
+}
+.span{
+    margin-left: 30px;
+}
+label{
+    font-weight: bolder;
+}
+p{
+    font-weight: 600;
+}
+.fondo_acordeon2{
+    margin-bottom: 20px;
+    background-color: transparent;
+    
+}
+.header h2 button{
+    background-color: rgb(211, 231, 236);
+    border-top: 2px solid rgb(46, 45, 150);
+}
+.header .header_h2{
+    margin: 0 auto;    
+}
+.header button::after{
+    width: 30px;
+}
+.borde_item1{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.select select{
+    margin: 0 5px;
+    margin-bottom: 10px;
+    
+}
+.botonComprobar{
+    padding: 2px 10px;
+    margin-right: 10px;
+    background-color: #2F4730;
+    color: white;
+    font-weight: 400;
+}
+.botonTexto{
+    padding: 2px 10px;
+    margin-right: 10px;
+    background-color: #4d4877;
+    color: white;
+    font-weight: 400;
+}
+.option{
+    background-color: rgb(176, 233, 176);
+}

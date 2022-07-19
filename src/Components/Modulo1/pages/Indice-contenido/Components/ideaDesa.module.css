@@ -1,0 +1,146 @@
+.articleCambio{
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.img{
+    text-align: center;
+}
+.contenido{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.centrar{
+    background-color: rgb(235, 221, 233);
+    padding: 20px;
+    border-radius: 5px;
+}
+.ajuste_derecha{
+    text-align: center;    
+    margin-top: 20px;
+    font-size: 2.5em;
+    border-radius: 50%;
+    color: rgb(75, 75, 172);
+    cursor: pointer;
+}
+
+.ajuste_derecha_atenuado{
+    text-align: center;    
+    margin-top: 20px;
+    font-size: 2.5em;
+    border-radius: 50%;
+    color: rgb(160, 160, 165);     
+}
+.ajuste_izquierda{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    border-radius: 50%;
+    color: rgb(75, 75, 172);
+    cursor: pointer;
+    
+}
+.ajuste_izquierda_atenuado{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    border-radius: 50%;
+    color: rgb(160, 160, 165);
+}
+.table{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(80, 76, 76);
+}
+
+.articleVideo h3{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.video{
+    margin-bottom: 30px;
+}
+
+.contenedor_video{
+    width: 500px;
+    height: 280px;
+    border: 1px solid rgb(80, 76, 76);
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.soloVideo{
+    margin: 0 auto;
+}
+.input{
+    margin: 0 auto;
+    text-align: center;
+}
+.visible{
+    display: block;
+    width: 560px;
+    height: 315px;
+    background-color: white;
+    padding: 30px;
+}
+.visible input{
+    width: 40px;
+    margin-top: 4px;
+}
+.orden_input{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.resultado{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+   
+}
+.resultadoHeader{
+    color: rgb(31, 31, 136);
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.ocultar{
+    display: none;
+}
+div .resultado .porcentajeResultado{
+    text-align: left;
+}
+.diapositiva{
+    text-align: center;
+}
+.puntuacion{
+    text-align: center;
+}
+.border{
+    border-bottom: 2px solid black;
+}
+.portada{
+    padding-top: 6px;
+}
+.tiempo{
+    text-align: left;
+}
+.recursoMultimedia{
+    margin-top: 30px;
+}
+.resultadoHeader button{
+    font-weight: bolder;
+    font-size: 0.6em;
+}
+.actividadDesplegable_span{
+    margin-right: 5px;   
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.actividadDesplegable{
+    padding: 20px;
+}
+.select select{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

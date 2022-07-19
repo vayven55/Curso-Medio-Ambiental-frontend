@@ -1,0 +1,80 @@
+
+.centros_educativos{
+    margin-bottom: 80px;
+}
+.centrar h3{
+    width: 100%;
+    text-align: center;
+}
+.centrar::after{
+    width: 20px;
+}
+
+.header{
+    color:#2F4730;
+    text-align: center;
+    margin: 0 auto;
+}
+.pregunta{
+    color: white;
+    background-color: #2F4730;
+    border-radius: 50px;
+    padding: 0 10px;
+}
+h2{
+    margin-bottom: 30px;
+}
+.multimedia button{
+    background-color: rgb(245, 239, 245);
+}
+.multimedia h3{
+    text-align: center;background-color: rgb(245, 239, 245);
+    margin: 0 auto;
+}
+.multimedia::after{ 
+    width: 20px;
+}
+.fondo_acordeon{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.iframe{
+    text-align: center;
+}
+.saber_mas h2{
+    margin-top: 40px;
+    text-align: left;
+}
+.saber_mas a{
+    color:black;
+    text-decoration: none;
+    color:#2F4730;
+    cursor: pointer;
+}
+.saber_mas a:hover{
+    color: blueviolet;
+}
+.input_mostrar{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #2F4730;
+    color: white;
+}
+.input_rest{
+    padding: 5px;
+    background-color: coral;
+    color: white;
+}
+.correcto{
+    color:#2F4730;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.incorrecto{
+    color:brown;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.img{
+    text-align: center;
+}

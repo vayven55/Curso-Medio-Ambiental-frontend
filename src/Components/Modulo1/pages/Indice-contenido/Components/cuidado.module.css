@@ -1,0 +1,145 @@
+.h2principal{
+    background-color: #2F4730;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.imagen{
+    text-align: center;
+    padding-bottom: 10px;
+}
+h2{
+    text-align: left;
+}
+.educar{
+    width: 100%;
+    display: inline-flex;
+    justify-content:center;
+}
+.educar li{
+    color: rgb(38, 5, 90);
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-weight: bold;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.enel{
+    color: rgb(38, 5, 90);
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: hsla(39, 42%, 91%, 0.718);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.sobre{
+    color: rgb(38, 5, 90);
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: hsla(39, 42%, 91%, 0.718);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.para{
+    color: rgb(38, 5, 90);
+    font-size: 1.5em;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: hsla(39, 42%, 91%, 0.718);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.en_sobre_para{
+    background-color: hsla(39, 42%, 91%, 0.718);
+    margin-top:-16px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.acordeon_header button{
+    background-color: rgb(230, 222, 219);
+    font-size: 1.3em;
+    color:#2F4730;
+    font-weight: bold;
+    height: 60px;border-top: 1px solid green;
+}
+.acordeon_header .icons{
+    width: 35px;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+    margin-top: 20px;
+}
+.educarParaElMedio{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.marcoDiv{
+    background-color: rgb(227, 245, 239);
+    padding: 20px;
+}
+.aciertos li{
+    margin-bottom: 20px;
+    background-color:rgb(236, 235, 235);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.boton{
+    padding: 5px;
+    background-color: #2F4730;
+    color: white;
+}
+.reset{
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    margin-left: 10px; 
+}
+.aciertos li.correcto{
+    background-color:aqua;
+}
+.aciertos li.incorrecto1{
+    background-color:aqua
+}
+.aciertos li.incorrecto2{
+    background-color:aqua
+}
+.multimedia_article{
+    margin-top: 80px;
+}
+.multimedia{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.iframe{
+    text-align: center;
+}
+.saber_mas{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.h4 a:hover{
+    color:rgb(38, 5, 90)
+}

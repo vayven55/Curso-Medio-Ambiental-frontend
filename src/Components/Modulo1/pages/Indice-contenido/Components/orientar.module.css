@@ -1,0 +1,172 @@
+.img, img{
+    margin: 0 auto;
+    width: 400px;
+    height: 340px;
+    margin-bottom: 20px;
+}
+.padding {
+    padding: 20px;
+}
+.menu{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+.article{
+    margin-bottom: 40px;
+}
+.direccionStrong{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    justify-items: center;
+    background-color: rgb(248, 203, 235);
+    text-align: center;
+    border-radius: 50%;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.direccionStrongCambio{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(165, 165, 226);
+    justify-items: center;
+    background-color: rgba(248, 203, 235, 0.3);
+    text-align: center;
+    border-radius: 50%;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.numero{
+    background-color: rgb(248, 203, 235);
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 8px;
+}
+.numeroSeleccionado{
+    background-color: rgb(53, 50, 52);
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 8px; 
+    color: white;
+}
+.direccionStrong:hover{
+    background-color: rgb(53, 50, 52);
+    color: white;
+}
+.numero:hover{
+    background-color: rgb(53, 50, 52);
+    color: white;
+}
+.centrarMenu{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.centrarMenu h4{
+    color:black;
+}
+.h4_menu{
+    text-align: left;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    justify-items: center;
+    padding: 40px 0;
+}
+.menu2ok{
+    padding: 10px 20px;
+    background-color: rgb(248, 203, 235);
+    border-radius: 5px;
+}
+.menu_p{
+    margin-bottom: 50px;cursor: pointer;
+}
+.p_venimos{
+    margin-top: -50px;
+    padding: 20px;
+    background-color: rgb(248, 203, 235);
+    border-radius: 5px;
+    
+}
+p input{
+    margin: 0 5px;
+}
+.verdadero{
+    background-color: rgb(161, 221, 161);
+}
+.falso{
+    background-color: rgb(238, 144, 144);
+}
+.mostrar_repuestas{
+    width: 208px;
+    text-align: left;
+    padding: 3px 12px;
+    background-color: rgb(26, 65, 26);
+    color: white;;
+    font-weight: 600;
+    font-size: 1.2em;
+    border: 1px solid brown;
+}
+.formulario{
+    padding: 20px ;   
+}
+.tarea{
+    text-align: center;
+    margin-top: 40px;
+    padding: 5px;
+}
+.rellenar{
+    margin-right: 8px;
+    padding: 0 8px;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+}
+.sugerencia{
+    padding: 3px;
+    background-color: darkblue;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: 1px solid brown;
+    margin-bottom: 20px;
+}
+.iframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.acordeon_header button:after{
+    width: 20px;
+    padding: 5px;
+    background-color: rgb(248, 203, 235);
+}
+.acordeon_header button{
+    height: 60px;
+}
+.acordeon_header button h2{
+    border-bottom: none;
+    width: 100%;
+    margin: 0 auto;
+    
+}
